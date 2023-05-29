@@ -128,17 +128,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bus.cpp" />
+    <ClCompile Include="Calc.cpp" />
     <ClCompile Include="car.cpp" />
-    <ClCompile Include="gasgtation.cpp" />
+    <ClCompile Include="gasstation.cpp" />
+    <ClCompile Include="lorry.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="transport.cpp" />
+    <ClCompile Include="truck.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bus.h" />
+    <ClInclude Include="Calc.h" />
     <ClInclude Include="car.h" />
     <ClInclude Include="gasstation.h" />
+    <ClInclude Include="lorry.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="transport.h" />
+    <ClInclude Include="truck.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
